@@ -2,17 +2,15 @@
 
 A Survey of Knowledge Graphs for AI-Driven Scientific Discovery: Construction, Applications, and Challenges
 
-> If you notice any mistakes or have suggestions, please feel free to contact us at: Zhihui.Zhu01@outlook.com
-
 ## 📑 Table of Contents
 
 - [Awesome Scientific Knowledge Graphs](#awesome-scientific-knowledge-graphs)
   - [📑 Table of Contents](#-table-of-contents)
-  - [🧬 Research Scope Across Scientific Domains](#-research-scope-across-scientific-domains)
-  - [🔗 Evolution of KGs and SciKG Applications](#-evolution-of-kgs-and-scikg-applications)
-  - [🏗️ Construction and Maintenance of SciKGs](#️-construction-and-maintenance-of-scikgs)
-  - [🤝 SciKG–LLM Integration for Scientific Discovery](#-scikgllm-integration-for-scientific-discovery)
-  - [⚖️ Challenges and Opportunities in SciKGs](#️-challenges-and-opportunities-in-scikgs)
+  - [🧬 Research Scope Across Scientific Domains](#research-scope-across-scientific-domains)
+  - [🔗 Evolution of KGs and SciKG Applications](#evolution-of-kgs-and-scikg-applications)
+  - [🏗️ Construction and Maintenance of SciKGs](#️construction-and-maintenance-of-scikgs)
+  - [🤝 SciKG–LLM Integration for Scientific Discovery](#scikgllm-integration-for-scientific-discovery)
+  - [⚖️ Challenges and Opportunities in SciKGs](#️challenges-and-opportunities-in-scikgs)
   - [Application of SciKGs](#application-of-scikgs)
     - [Drug Development and Optimization](#drug-development-and-optimization)
     - [Omics Interpretation and Analysis](#omics-interpretation-and-analysis)
@@ -21,7 +19,6 @@ A Survey of Knowledge Graphs for AI-Driven Scientific Discovery: Construction, A
   - [Summary of SciKG-LLM Integration](#summary-of-scikg-llm-integration)
   - [Databases for Constructing Scientific Knowledge Graph](#databases-for-constructing-scientific-knowledge-graph)
   - [Software Tools for Knowledge Graph](#software-tools-for-knowledge-graph)
-  - [📅 Star History](#-star-history)
 
 ## 🧬 Research Scope Across Scientific Domains ([To Top👆🏻](#awesome-scientific-knowledge-graphs))
 
@@ -271,9 +268,8 @@ Challenges and Opportunities in SciKGs. This figure illustrates the major challe
 |                                               | GraphGPT      | [Link](https://github.com/varunshenoy/GraphGPT)         | An experimental tool using GPT models to extract entities and relations from text and generate interactive KG visualizations                                                             | Triple Extraction, KG Construction, Visualization                                  | MIT License |
 |                                               | LlamaIndex    | [Link](https://github.com/run-llama/llama_index)        | A component for building KG indices from unstructured text, integrating subject–predicate–object triples into LLM-based retrieval pipelines                                            | Triple Extraction, KG Indexing, KG-based QA                                        | MIT License |
 
-                                                                                                      |
-## 📅 Star History
+                                                                                
+<!-- ## 📅 Star History
+[![Star History Chart](https://api.star-history.com/svg?repos=hicai-zju/scikg&type=Date)](https://www.star-history.com/#hicai-zju/scikg&Date) -->
 
-<a href="#-table-of-contents" style="float:right;">⬆ Back to Top</a>
-
-[![Star History Chart](https://api.star-history.com/svg?repos=hicai-zju/scikg&type=Date)](https://www.star-history.com/#hicai-zju/scikg&Date)
+> If you notice any mistakes or have suggestions, please feel free to contact us at: zhihui.zhu01@outlook.com
