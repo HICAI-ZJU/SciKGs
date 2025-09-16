@@ -6,12 +6,12 @@ A Survey of Knowledge Graphs for AI-Driven Scientific Discovery: Construction, A
 
 - [Awesome Scientific Knowledge Graphs](#awesome-scientific-knowledge-graphs)
   - [📑 Table of Contents](#-table-of-contents)
-  - [🧬 Research Scope Across Scientific Domains](#-research-scope-across-scientific-domains)
-  - [🔗 Evolution of KGs and SciKG Applications](#-evolution-of-kgs-and-scikg-applications)
+  - [🧬 Research Scopes](#-research-scopes)
+  - [🔗 Evolution of SciKGs](#-evolution-of-scikgs)
   - [🏗️ Construction and Maintenance of SciKGs](#️-construction-and-maintenance-of-scikgs)
   - [🤝 SciKG–LLM Integration for Scientific Discovery](#-scikgllm-integration-for-scientific-discovery)
   - [⚖️ Challenges and Opportunities in SciKGs](#️-challenges-and-opportunities-in-scikgs)
-  - [Application of SciKGs](#application-of-scikgs)
+  - [Collection of SciKGs and its Applications](#collection-of-scikgs-and-its-applications)
     - [Drug Development and Optimization](#drug-development-and-optimization)
     - [Omics Interpretation and Analysis](#omics-interpretation-and-analysis)
     - [Chemical Reaction and Synthesis](#chemical-reaction-and-synthesis)
@@ -20,12 +20,12 @@ A Survey of Knowledge Graphs for AI-Driven Scientific Discovery: Construction, A
   - [Databases for Constructing Scientific Knowledge Graph](#databases-for-constructing-scientific-knowledge-graph)
   - [Software Tools for Knowledge Graph](#software-tools-for-knowledge-graph)
 
-## 🧬 Research Scope Across Scientific Domains
+## 🧬 Research Scopes
 
 ![overview](fig/overview.png)
 An overview of the scope in this survey, covering four fundamental scientific tasks in biology, chemistry, and materials science: (a) drug development and optimization, (b) omics interpretation and analysis, (c) chemical reaction and synthesis, and (d) materials design and discovery.
 
-## 🔗 Evolution of KGs and SciKG Applications
+## 🔗 Evolution of SciKGs
 
 ![evolution](fig/evolution.png)
 The co-evolution of knowledge graph technologies and their scientific practices. The technological evolution of KGs (top) has continually enabled new paradigms in SciKG applications (bottom). This progression has moved from static cataloguing and manual integration to machine learning-driven inference, culminating in the current era of bidirectional synergy between LLMs and KGs. This synergy, leveraging tools such as RAG and AI agents, transforms SciKGs from static repositories into dynamic engines for generative scientific discovery. Abbr., SQL: Structured Query Language; RDF: Resource Description Framework; OWL: Web Ontology Language; SPARQL: SPARQL Protocol and RDF Query Language; GNN: graph neural network; KGE: knowledge graph embedding; RAG: retrieval-augmented generation.
@@ -45,7 +45,7 @@ Synergistic integration of SciKGs and LLMs for knowledge-driven scientific disco
 ![chall_oppor](fig/chall_oppor.png)
 Challenges and Opportunities in SciKGs. This figure illustrates the major challenges (C1-C4) facing SciKGs, including data quality and completeness, interoperability and integration, dynamic and temporal knowledge, and trustworthy and explainable reasoning. Each challenge is paired with corresponding opportunities (O1-O4) for advancement, such as building standards and benchmarks, integrating multimodal foundation models, autonomous updating via agents, and developing community-driven platforms. The green sections depict workflows (W1-W4) that enable these opportunities, highlighting a path towards more auditable, unified, dynamic, and community-governed SciKGs.
 
-## Application of SciKGs
+## Collection of SciKGs and its Applications
 
 ### Drug Development and Optimization
 
