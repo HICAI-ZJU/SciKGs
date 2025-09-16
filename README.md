@@ -6,11 +6,11 @@ A Survey of Knowledge Graphs for AI-Driven Scientific Discovery: Construction, A
 
 - [Awesome Scientific Knowledge Graphs](#awesome-scientific-knowledge-graphs)
   - [📑 Table of Contents](#-table-of-contents)
-  - [🧬 Research Scope Across Scientific Domains](#research-scope-across-scientific-domains)
-  - [🔗 Evolution of KGs and SciKG Applications](#evolution-of-kgs-and-scikg-applications)
-  - [🏗️ Construction and Maintenance of SciKGs](#️construction-and-maintenance-of-scikgs)
-  - [🤝 SciKG–LLM Integration for Scientific Discovery](#scikgllm-integration-for-scientific-discovery)
-  - [⚖️ Challenges and Opportunities in SciKGs](#️challenges-and-opportunities-in-scikgs)
+  - [🧬 Research Scope Across Scientific Domains](#-research-scope-across-scientific-domains)
+  - [🔗 Evolution of KGs and SciKG Applications](#-evolution-of-kgs-and-scikg-applications)
+  - [🏗️ Construction and Maintenance of SciKGs](#️-construction-and-maintenance-of-scikgs)
+  - [🤝 SciKG–LLM Integration for Scientific Discovery](#-scikgllm-integration-for-scientific-discovery)
+  - [⚖️ Challenges and Opportunities in SciKGs](#️-challenges-and-opportunities-in-scikgs)
   - [Application of SciKGs](#application-of-scikgs)
     - [Drug Development and Optimization](#drug-development-and-optimization)
     - [Omics Interpretation and Analysis](#omics-interpretation-and-analysis)
@@ -20,34 +20,34 @@ A Survey of Knowledge Graphs for AI-Driven Scientific Discovery: Construction, A
   - [Databases for Constructing Scientific Knowledge Graph](#databases-for-constructing-scientific-knowledge-graph)
   - [Software Tools for Knowledge Graph](#software-tools-for-knowledge-graph)
 
-## 🧬 Research Scope Across Scientific Domains ([To Top👆🏻](#awesome-scientific-knowledge-graphs))
+## 🧬 Research Scope Across Scientific Domains
 
 ![overview](fig/overview.png)
 An overview of the scope in this survey, covering four fundamental scientific tasks in biology, chemistry, and materials science: (a) drug development and optimization, (b) omics interpretation and analysis, (c) chemical reaction and synthesis, and (d) materials design and discovery.
 
-## 🔗 Evolution of KGs and SciKG Applications ([To Top👆🏻](#awesome-scientific-knowledge-graphs))
+## 🔗 Evolution of KGs and SciKG Applications
 
 ![evolution](fig/evolution.png)
 The co-evolution of knowledge graph technologies and their scientific practices. The technological evolution of KGs (top) has continually enabled new paradigms in SciKG applications (bottom). This progression has moved from static cataloguing and manual integration to machine learning-driven inference, culminating in the current era of bidirectional synergy between LLMs and KGs. This synergy, leveraging tools such as RAG and AI agents, transforms SciKGs from static repositories into dynamic engines for generative scientific discovery. Abbr., SQL: Structured Query Language; RDF: Resource Description Framework; OWL: Web Ontology Language; SPARQL: SPARQL Protocol and RDF Query Language; GNN: graph neural network; KGE: knowledge graph embedding; RAG: retrieval-augmented generation.
 
-## 🏗️ Construction and Maintenance of SciKGs ([To Top👆🏻](#awesome-scientific-knowledge-graphs))
+## 🏗️ Construction and Maintenance of SciKGs
 
 ![construct](fig/construct.png)
 Construction and maintenance of SciKGs. (a) The foundation of SciKG construction involves integrating diverse data sources, including structured databases, unstructured text, and multimodal data. (b) Two main approaches for extracting entities and relations from the acquired data are illustrated: rule/dictionary-based extraction, which relies on predefined lexicons and rules, and LLM-based extraction, involving fine-tuning on scientific datasets and prompt engineering. (c) Ontology alignment integrates diverse representations of the same entity (e.g., aspirin), followed by graph embedding into a continuous vector space. (d) Dynamic updating through incremental learning and LLM-driven error correction ensures SciKGs remain accurate and up to date. (e-h) Sub-figures illustrate representative examples of specialized knowledge graphs for drugs, omics, chemicals, and materials, respectively.
 
-## 🤝 SciKG–LLM Integration for Scientific Discovery ([To Top👆🏻](#awesome-scientific-knowledge-graphs))
+## 🤝 SciKG–LLM Integration for Scientific Discovery
 
 ![kg_llm](fig/kg_llm.png)
 Synergistic integration of SciKGs and LLMs for knowledge-driven scientific discovery. (a) SciKGs serve as the foundational knowledge infrastructure by ensuring factual grounding and verification, defining reasonable scientific boundaries, and enabling unified representation of heterogeneous data. (b) LLMs act as dynamic semantic engines through five core functions: semantic interface for knowledge access, analytical reasoner for inference, generative engine for hypothesis design, constructor for knowledge curation, and orchestrator for workflow automation. (c) The SciKG-LLM integration empowers four key scientific discovery tasks: multi-source data interpretation, complex system mechanism analysis, system performance optimization, and innovative solution design.
 
-## ⚖️ Challenges and Opportunities in SciKGs ([To Top👆🏻](#awesome-scientific-knowledge-graphs))
+## ⚖️ Challenges and Opportunities in SciKGs
 
 ![chall_oppor](fig/chall_oppor.png)
 Challenges and Opportunities in SciKGs. This figure illustrates the major challenges (C1-C4) facing SciKGs, including data quality and completeness, interoperability and integration, dynamic and temporal knowledge, and trustworthy and explainable reasoning. Each challenge is paired with corresponding opportunities (O1-O4) for advancement, such as building standards and benchmarks, integrating multimodal foundation models, autonomous updating via agents, and developing community-driven platforms. The green sections depict workflows (W1-W4) that enable these opportunities, highlighting a path towards more auditable, unified, dynamic, and community-governed SciKGs.
 
 ## Application of SciKGs
 
-### Drug Development and Optimization ([To Top👆🏻](#awesome-scientific-knowledge-graphs))
+### Drug Development and Optimization
 
 | Year | Title                                                                                                                                     | KG Name                                                                    | KG Type             | Domain                                                                          | Construction Method | Venue                                                                  | Paper                                                                                                                                                                                                                                    | Code                                                                                                                                                                                                              |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------------------- | ------------------------------------------------------------------------------- | ------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -97,7 +97,7 @@ Challenges and Opportunities in SciKGs. This figure illustrates the major challe
 | 2017 | Large-scale structural and textual similarity-based mining of knowledge graph to predict drug–drug interactions                          | /                                                                          | public KG           | DDI prediction                                                                  | Semi-automated      | Journal of Web Semantics                                               | [Link](https://www.sciencedirect.com/science/article/pii/S157082681730029X)                                                                                                                                                                 |                                                                                                                                                                                                                   |
 | 2017 | Deep mining heterogeneous networks of biomedical linked data to predict novel drug–target associations                                   | LTN (Linked Tripartite Network)                                            | public KG           | DTI prediction                                                                  | Semi-automated      | Bioinformatics                                                         | [Link](https://academic.oup.com/bioinformatics/article/33/15/2337/3738543?login=false)                                                                                                                                                      | [Link](https://github.com/zongnansu1982/drug-target-prediction) ![](https://img.shields.io/github/stars/zongnansu1982/drug-target-prediction.svg?style=social)                                                         |
 
-### Omics Interpretation and Analysis ([To Top👆🏻](#awesome-scientific-knowledge-graphs))
+### Omics Interpretation and Analysis
 
 | Year | Title                                                                                                                                                                             | KG Name                                                                      | KG Type             | Domain                   | Construction Method | Venue                                                   | Paper                                                                                                                                                                                 | Code                                                                                                                                                                      |
 | ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------- | ------------------------ | ------------------- | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -137,7 +137,7 @@ Challenges and Opportunities in SciKGs. This figure illustrates the major challe
 | 2018 | Network-based integration of multi-omics data for prioritizing cancer genes                                                                                                       | /                                                                            | public KG           | Genomics research        | Semi-automated      | Bioinformatics                                          | [Link](https://academic.oup.com/bioinformatics/article/34/14/2441/4934938?login=false)                                                                                                   | [Link](https://github.com/cbg-ethz/netics) ![](https://img.shields.io/github/stars/cbg-ethz/netics.svg?style=social)                                                           |
 | 2016 | A knowledge-based approach for predicting gene–disease associations                                                                                                              | /                                                                            | public KG           | Genomics research        | Semi-automated      | Bioinformatics                                          | [Link](https://academic.oup.com/bioinformatics/article/32/18/2831/1744378?login=false)                                                                                                   |                                                                                                                                                                           |
 
-### Chemical Reaction and Synthesis ([To Top👆🏻](#awesome-scientific-knowledge-graphs))
+### Chemical Reaction and Synthesis
 
 | Year | Title                                                                                                                                          | KG Name                                                | KG Type             | Domain                                                                                                   | Construction Method | Venue                                                 | Paper                                                                               | Code                                                                                                                                          |
 | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ | ------------------- | -------------------------------------------------------------------------------------------------------- | ------------------- | ----------------------------------------------------- | ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -160,7 +160,7 @@ Challenges and Opportunities in SciKGs. This figure illustrates the major challe
 | 2020 | Multiscale Cross-Domain Thermochemical Knowledge-Graph                                                                                         | JPS KG                                                 | Dynamic KG          | Chemical reaction prediction and Molecular property prediction                                           | Automated           | JCIM                                                  | [Link](https://pubs.acs.org/doi/10.1021/acs.jcim.0c01145)                              |                                                                                                                                               |
 | 2016 | Modelling Chemical Reasoning to Predict and Invent Reactions                                                                                   | /                                                      | public KG           | Chemical reaction prediction                                                                             | Semi-automated      | Chemistry Europe                                      | [Link](https://arxiv.org/pdf/1608.07117)                                               |                                                                                                                                               |
 
-### Materials Design and Discovery ([To Top👆🏻](#awesome-scientific-knowledge-graphs))
+### Materials Design and Discovery
 
 | Year | Title                                                                                                                                                       | KG Name                                                            | KG Type                            | Domain                                                                  | Construction Method | Venue                                              | Paper                                                                          | Code                                                                                                                                                        |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ---------------------------------- | ----------------------------------------------------------------------- | ------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -190,7 +190,7 @@ Challenges and Opportunities in SciKGs. This figure illustrates the major challe
 | 2018 | Relation extraction with weakly supervised learning based on process-structure-property-performance reciprocity                                             | PSPP KG (Process-Structure-Property-Performance)                   | literature-based KG                | New material design                                                     | Semi-automated      | Science and Technology of Advanced Materials       | [Link](https://www.tandfonline.com/doi/full/10.1080/14686996.2018.1500852#d1e373) | [Link](https://bitbucket.org/0024takeshi/pspp_relation)  
 
 
-## Summary of SciKG-LLM Integration ([To Top👆🏻](#awesome-scientific-knowledge-graphs))
+## Summary of SciKG-LLM Integration
 
 | Name         | Year | Domains       | Roles of LLMs                                                                                   | Roles of SciKG                                                      | Tasks   | Application                                         |
 | ------------ | ---- | ------------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ------- | --------------------------------------------------- |
@@ -215,7 +215,7 @@ Challenges and Opportunities in SciKGs. This figure illustrates the major challe
 
 **Tasks Abbreviations:** **M**: Multi-source Data Interpretation; **C**: Complex System Mechanism Analysis; **S**: System Performance Optimization; **I**: Innovative Solution Design
 
-## Databases for Constructing Scientific Knowledge Graph ([To Top👆🏻](#awesome-scientific-knowledge-graphs))
+## Databases for Constructing Scientific Knowledge Graph
 
 | Domain                        | Database          | Short Description                                                                                                                    | Statistics                                                                                                                 | Update Frequency |
 | ----------------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------- | ---------------- |
@@ -243,7 +243,7 @@ Challenges and Opportunities in SciKGs. This figure illustrates the major challe
 | **Materials Databases** | OQMD              | Open-access database of DFT-calculated properties for inorganic and hybrid materials                                                 | 1.2M materials                                                                                                             | --               |
 |                               | Materials Project | High-throughput DFT database of materials properties & crystal structures                                                            | 144K inorganic compounds, 76K bandstructures, 64K molecules, 530K nanoporous materials, and diverse tensors and electrodes | --               |
 
-## Software Tools for Knowledge Graph ([To Top👆🏻](#awesome-scientific-knowledge-graphs))
+## Software Tools for Knowledge Graph
 
 | Category                                      | Software Name | URL                                                  | Description                                                                                                                                                                              | Supported Tasks                                                                    | License     |
 | --------------------------------------------- | ------------- | ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ----------- |
