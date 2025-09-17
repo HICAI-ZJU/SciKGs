@@ -9,6 +9,7 @@ A Survey of Knowledge Graphs for AI-Driven Scientific Discovery: Construction, A
   - [🧬 Research Scopes](#-research-scopes)
   - [🔗 Evolution of SciKGs](#-evolution-of-scikgs)
   - [🏗️ Construction and Maintenance of SciKGs](#️-construction-and-maintenance-of-scikgs)
+  - [📊 Applications of SciKGs in Science](#-applications-of-scikgs-in-science)
   - [🤝 SciKG–LLM Integration for Scientific Discovery](#-scikgllm-integration-for-scientific-discovery)
   - [⚖️ Challenges and Opportunities in SciKGs](#️-challenges-and-opportunities-in-scikgs)
   - [Collection of SciKGs and its Applications](#collection-of-scikgs-and-its-applications)
@@ -34,6 +35,11 @@ The co-evolution of knowledge graph technologies and their scientific practices.
 
 ![construct](fig/construct.png)
 Construction and maintenance of SciKGs. (a) The foundation of SciKG construction involves integrating diverse data sources, including structured databases, unstructured text, and multimodal data. (b) Two main approaches for extracting entities and relations from the acquired data are illustrated: rule/dictionary-based extraction, which relies on predefined lexicons and rules, and LLM-based extraction, involving fine-tuning on scientific datasets and prompt engineering. (c) Ontology alignment integrates diverse representations of the same entity (e.g., aspirin), followed by graph embedding into a continuous vector space. (d) Dynamic updating through incremental learning and LLM-driven error correction ensures SciKGs remain accurate and up to date. (e-h) Sub-figures illustrate representative examples of specialized knowledge graphs for drugs, omics, chemicals, and materials, respectively.
+
+## 📊 Applications of SciKGs in Science
+
+![application](fig/application.png)
+**A taxonomy of existing SciKGs and their applications in science.** The specific knowledge graphs and their use cases in drug development, omics, chemistry, and materials science are detailed in the section below: **[Collection of SciKGs and its Applications](#collection-of-scikgs-and-its-applications)**.
 
 ## 🤝 SciKG–LLM Integration for Scientific Discovery
 
