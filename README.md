@@ -7,11 +7,13 @@ A Survey of Knowledge Graphs for AI-Driven Scientific Discovery: Construction, A
 - [Awesome Scientific Knowledge Graphs](#awesome-scientific-knowledge-graphs)
   - [📑 Table of Contents](#-table-of-contents)
   - [🧬 Research Scopes](#-research-scopes)
+  - [📚 Structure of Survey](#-structure-of-survey)
   - [🔗 Evolution of SciKGs](#-evolution-of-scikgs)
-  - [🏗️ Construction and Maintenance of SciKGs](#️-construction-and-maintenance-of-scikgs)
-  - [📊 Applications of SciKGs in Science](#-applications-of-scikgs-in-science)
+  - [🏗️ Construction and Maintenance of SciKGs](#-construction-and-maintenance-of-scikgs)
+  - [🌐 Core Functions of SciKGs](#-core-functions-of-scikgs)
   - [🤝 SciKG–LLM Integration for Scientific Discovery](#-scikgllm-integration-for-scientific-discovery)
-  - [⚖️ Challenges and Opportunities in SciKGs](#️-challenges-and-opportunities-in-scikgs)
+  - [🧠 Discovery Flywheel](#-discovery-flywheel)
+  - [⚖️ Challenges and Opportunities in SciKGs](#-challenges-and-opportunities-in-scikgs)
   - [Collection of SciKGs and its Applications](#collection-of-scikgs-and-its-applications)
     - [Drug Development and Optimization](#drug-development-and-optimization)
     - [Omics Interpretation and Analysis](#omics-interpretation-and-analysis)
@@ -20,11 +22,18 @@ A Survey of Knowledge Graphs for AI-Driven Scientific Discovery: Construction, A
   - [Summary of SciKG-LLM Integration](#summary-of-scikg-llm-integration)
   - [Databases for Constructing Scientific Knowledge Graph](#databases-for-constructing-scientific-knowledge-graph)
   - [Software Tools for Knowledge Graph](#software-tools-for-knowledge-graph)
+  - [Citation](#citation)
+
 
 ## 🧬 Research Scopes
 
 ![overview](fig/overview.png)
 **An overview of the scope in this survey, covering four fundamental scientific tasks in biology, chemistry, and materials science:** (a) drug development and optimization, (b) omics interpretation and analysis, (c) chemical reaction and synthesis, and (d) materials design and discovery.
+
+## 📚 Structure of Survey
+
+![structure](fig/section.png)
+**Structure of the survey.** Our review is structured around the lifecycle of SciKGs: from their conceptual foundation and construction methodologies, to their applications and synergistic integration with LLMs for discovery, culminating in challenges, opportunities and future directions that envision SciKGs as engines for autonomous scientific discovery. 
 
 ## 🔗 Evolution of SciKGs
 
@@ -36,15 +45,20 @@ A Survey of Knowledge Graphs for AI-Driven Scientific Discovery: Construction, A
 ![construct](fig/construct.png)
 **Construction and maintenance of SciKGs.** (a) The foundation of SciKG construction involves integrating diverse data sources, including structured databases, unstructured text, and multimodal data. (b) Two main approaches for extracting entities and relations from the acquired data are illustrated: rule/dictionary-based extraction, which relies on predefined lexicons and rules, and LLM-based extraction, involving fine-tuning on scientific datasets and prompt engineering. (c) Ontology alignment integrates diverse representations of the same entity (e.g., aspirin), followed by graph embedding into a continuous vector space. (d) Dynamic updating through incremental learning and LLM-driven error correction ensures SciKGs remain accurate and up to date. (e-h) Sub-figures illustrate representative examples of specialized knowledge graphs for drugs, omics, chemicals, and materials, respectively.
 
-## 📊 Applications of SciKGs in Science
+## 🌐 Core Functions of SciKGs
 
-![application](fig/application.png)
-**A taxonomy of existing SciKGs and their applications in science.** The specific knowledge graphs and their use cases in drug development, omics, chemistry, and materials science are detailed in the section below: **[Collection of SciKGs and its Applications](#collection-of-scikgs-and-its-applications)**.
+![app](fig/app.png) 
+**Summary of core functions of SciKGs in diverse scientific tasks.** SciKGs serve as a foundational infrastructure that: (1) organizes heterogeneous scientific data into structured knowledge; (2) enhances representation learning via graph embedding; (3) enables causal and relational inference for hypothesis generation; and (4) improves AI model interpretability by grounding predictions in traceable, evidence-based knowledge paths.
 
 ## 🤝 SciKG–LLM Integration for Scientific Discovery
 
 ![kg_llm](fig/kg_llm.png)
 **Synergistic integration of SciKGs and LLMs for knowledge-driven scientific discovery.** (a) SciKGs serve as the foundational knowledge infrastructure by ensuring factual grounding and verification, defining reasonable scientific boundaries, and enabling unified representation of heterogeneous data. (b) LLMs act as dynamic semantic engines through five core functions: semantic interface for knowledge access, analytical reasoner for inference, generative engine for hypothesis design, constructor for knowledge curation, and orchestrator for workflow automation. (c) The SciKG-LLM integration empowers four key scientific discovery tasks: multi-source data interpretation, complex system mechanism analysis, system performance optimization, and innovative solution design.
+
+## 🧠 Discovery Flywheel
+
+![copilot](figs/copilot.png)  
+**The autonomous scientific discovery flywheel driven by LLM agents and SciKGs.** 
 
 ## ⚖️ Challenges and Opportunities in SciKGs
 
@@ -273,6 +287,14 @@ A Survey of Knowledge Graphs for AI-Driven Scientific Discovery: Construction, A
 |                                               | Cytoscape     | [Link](https://github.com/cytoscape/cytoscape)          | A network visualization platform originally designed for bioinformatics, now supporting general-purpose network analysis with rich plugins                                               | Graph Visualization, Attribute Integration, Topology Analysis                      | LGPL        |
 |                                               | GraphGPT      | [Link](https://github.com/varunshenoy/GraphGPT)         | An experimental tool using GPT models to extract entities and relations from text and generate interactive KG visualizations                                                             | Triple Extraction, KG Construction, Visualization                                  | MIT License |
 |                                               | LlamaIndex    | [Link](https://github.com/run-llama/llama_index)        | A component for building KG indices from unstructured text, integrating subject–predicate–object triples into LLM-based retrieval pipelines                                            | Triple Extraction, KG Indexing, KG-based QA                                        | MIT License |
+
+## Citation
+
+If you find this repository useful, please cite our paper:
+
+```
+
+```
 
                                                                                 
 <!-- ## 📅 Star History
