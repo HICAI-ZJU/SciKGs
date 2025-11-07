@@ -57,7 +57,7 @@ A Survey of Knowledge Graphs for AI-Driven Scientific Discovery: Construction, A
 
 ## 🧠 Discovery Flywheel
 
-![copilot](figs/copilot.png)  
+![copilot](fig/copilot.png)  
 **The autonomous scientific discovery flywheel driven by LLM agents and SciKGs.** 
 
 ## ⚖️ Challenges and Opportunities in SciKGs
