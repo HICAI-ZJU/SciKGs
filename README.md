@@ -1,6 +1,6 @@
 # Awesome Scientific Knowledge Graphs
 
-A Survey of Knowledge Graphs for AI-Driven Scientific Discovery: Construction, Applications, and Challenges
+Bridging Data and Discovery: A Survey on Knowledge Graphs in AI for Science
 
 ## 📑 Table of Contents
 
@@ -293,6 +293,15 @@ A Survey of Knowledge Graphs for AI-Driven Scientific Discovery: Construction, A
 If you find this repository useful, please cite our paper:
 
 ```
+
+ @article{Ding_2025,
+title={Bridging Data and Discovery: A Survey on Knowledge Graphs in AI for Science},
+url={http://dx.doi.org/10.36227/techrxiv.176369442.22009541/v1},
+DOI={10.36227/techrxiv.176369442.22009541/v1},
+publisher={Institute of Electrical and Electronics Engineers (IEEE)},
+author={Ding, Keyan and Zhu, Zhihui and Tang, Yuqi and Feng, Kehua and Zhuang, Xiang and Wang, Hongwei and Yang, Yi and Du, Huifang and Ni, Zhangkai and Wang, Shiqi and Fan, Xiaohui and Xing, Huabin and Bai, Lei and Liu, Qi and Wang, Haofen and Zhang, Qiang and Chen, Huajun},
+year={2025},
+month=nov }
 
 ```
 
