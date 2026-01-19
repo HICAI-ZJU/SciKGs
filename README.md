@@ -305,8 +305,3 @@ month=nov }
 
 ```
 
-                                                                                
-<!-- ## 📅 Star History
-[![Star History Chart](https://api.star-history.com/svg?repos=hicai-zju/scikg&type=Date)](https://www.star-history.com/#hicai-zju/scikg&Date) -->
-
-> If you notice any mistakes or have suggestions, please feel free to contact us at: zhihui.zhu01@outlook.com
